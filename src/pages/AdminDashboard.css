@@ -1,0 +1,56 @@
+.admin-container{
+    display:flex;
+    /* width: 300px; */
+}
+
+.admin-profile{
+    width: 100%;
+    max-width: 350px;
+    height: 100vh;
+    background-color:red;
+    border-radius: 10px;
+}
+
+.admin-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.admin-pic{
+    border-radius: 50%;
+    height: 250px;
+    width:100%;
+    max-width: 250px;
+}
+
+.admin-name{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-color:green; */
+}
+
+.admin-outlet-option{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.admin-outlet-option div{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.admin-outlet-option div:hover{
+    background-color: green;
+}
